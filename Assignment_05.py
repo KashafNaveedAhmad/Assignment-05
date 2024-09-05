@@ -82,18 +82,21 @@ except ValueError:
     print("Enter a valid response!")
 print("\n-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_")  
 
+#number of days in months except leap year.
 print("\n->Checking for number of days in months except leap year!")
 try:
     month= int(input("\nEnter the month as number between '1' to '12':"))
     if month== (1 and 3 and 5 and 7 and 8 and 10 and 12):
-        print(f"The days of the month '{month}'is '31' days!")
+        print(f"The days of the month number '{month}'is '31' days!")
     elif month== (4 and 6 and 9 and 11 ):
-        print(f"The days of the month '{month}'is '30' days!") 
+        print(f"The days of the month number'{month}'is '30' days!") 
     else:
-        print(f"The days of the month '{month}'is '28' days!") 
+        print(f"The days of the month number'{month}'is '28' days!") 
 except ValueError:
     print("Enter a valid response!")     
 print("\n-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_") 
+
+# leap year check.
 
 print("\n->Checking for 'leap year'!\n")
 try:
